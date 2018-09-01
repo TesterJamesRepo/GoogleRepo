@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+	<listeners>
+		<listener class-name="analyzers.AnnotationTransformer" />
+	</listeners>
+	<test name="Tests">
+		<classes>
+		<!-- 	<class name="tests.RetryTest" />  -->
+			<class name="tests.EnableTextEditorJScript"></class>
+		</classes>
+	</test>
+</suite>

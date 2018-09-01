@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RetryFailedTestCasesSuite" duration-ms="59928" started-at="2018-08-08T05:20:45Z" finished-at="2018-08-08T05:21:45Z">
+    <groups>
+    </groups>
+    <test name="RetryMultipleTests" duration-ms="59928" started-at="2018-08-08T05:20:45Z" finished-at="2018-08-08T05:21:45Z">
+      <class name="tests.EnableTextEditorJScript">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.EnableTextEditorJScript@1057a39]" name="beforeTest" is-config="true" duration-ms="51199" started-at="2018-08-08T05:20:45Z" finished-at="2018-08-08T05:21:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="enableTextbox()[pri:1, instance:tests.EnableTextEditorJScript@1057a39]" name="enableTextbox" duration-ms="5028" started-at="2018-08-08T05:21:36Z" finished-at="2018-08-08T05:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableTextbox -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.EnableTextEditorJScript@1057a39]" name="afterTest" is-config="true" duration-ms="3358" started-at="2018-08-08T05:21:41Z" finished-at="2018-08-08T05:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.EnableTextEditorJScript -->
+      <class name="tests.RetryTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:tests.RetryTest@be92ad]" name="test1" duration-ms="9" started-at="2018-08-08T05:21:36Z" finished-at="2018-08-08T05:21:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:tests.RetryTest@be92ad]" name="test2" duration-ms="2" started-at="2018-08-08T05:21:36Z" finished-at="2018-08-08T05:21:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- tests.RetryTest -->
+    </test> <!-- RetryMultipleTests -->
+  </suite> <!-- RetryFailedTestCasesSuite -->
+</testng-results>
